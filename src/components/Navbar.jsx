@@ -1,14 +1,20 @@
 import NavigationButton from "./NavigationButton";
 
-
-
 function Navbar() {
   return (
     <>
       <div className=" p-4 flex flex-row gap-6 items-center">
-        <NavigationButton>GDG Links</NavigationButton>
+        <a href="/">
+          <NavigationButton>Home</NavigationButton>
+        </a>
 
-        <NavigationButton>Other People</NavigationButton>
+        <a href="/about">
+          <NavigationButton>People</NavigationButton>
+        </a>
+
+        <a href="/testing">
+          <NavigationButton>Testing</NavigationButton>
+        </a>
 
         <NavigationButton>Events</NavigationButton>
       </div>

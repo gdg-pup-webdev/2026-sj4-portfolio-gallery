@@ -1,21 +1,21 @@
-import Navbar from "./components/Navbar";
+import { Routes, Route } from "react-router-dom";
 
-import background from "./assets/background.jpg";
-import MainBody from "./components/MainBody";
-import Footer from "./components/Footer";
+import Mainlayout from "./layouts/MainLayout";
+import SamplePage from "./pages/SamplePage";
+import HomePage from "./pages/HomePage";
+import DynamicPage from "./pages/DynamicPage";
 
 function App() {
   return (
     <>
-      <div className="w-full bg-black/20 min-h-screen">
-        <Navbar />
-        <MainBody />
-        <Footer />
+      <Routes>
+        <Route path="/" element={<Mainlayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="/testing" element={<SamplePage />} />
 
-        <div className="fixed -z-10 w-full h-screen top-0 ">
-          <img className="w-full h-full object-cover" src={background}></img>
-        </div>
-      </div>
+          <Route path="/dynamic/:id" element={<DynamicPage />} />
+        </Route>
+      </Routes>
     </>
   );
 }

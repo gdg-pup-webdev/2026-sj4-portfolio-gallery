@@ -17,9 +17,9 @@ Ready to add your page to the gallery? Follow these simple steps to contribute t
 1. **🍴 Fork the Repository**: Click the "Fork" button at the top right of this page to create your own copy of the repository.
 2. **💻 Implement Your Changes**: 
    - Clone your forked repo to your local machine.
-   - Create a new component for your personal page.
-   - Use React Router to set up the route for your page so it's accessible from the main app.
-   - Add a link to your page from the Landing Page.
+   - Create a new component for your personal page inside the `./src/pages/members` folder.
+   - Modify `src/App.jsx` to set up a new route for your page using React Router so it's accessible from the main app.
+   - Add a link to your page from the Landing Page (e.g. adding a new card on the Gallery section).
 3. **🚀 Push to Your Fork**: Once your page is looking awesome and the routing works, commit your changes and push them back to your forked repository.
 4. **🤝 Submit a Pull Request**: Head back to this original repository and open a Pull Request (PR) from your fork. Give it a nice title so we know whose page it is!
 
@@ -27,8 +27,8 @@ Ready to add your page to the gallery? Follow these simple steps to contribute t
 
 To successfully complete this activity, your Pull Request should meet the following criteria:
 
-- [ ] **Your Own Page**: You have created a new React component that serves as your dedicated page.
-- [ ] **Routing Implemented**: Your page is accessible via a unique route using React Router (e.g., `/students/your-name`).
+- [ ] **Your Own Page**: You have created a new React component that serves as your dedicated page inside `./src/pages/members`.
+- [ ] **Routing Implemented**: Your page is accessible via a unique route mapped in `src/App.jsx` using React Router (e.g., `/students/your-name`).
 - [ ] **Navigation**: There is a working link to your page accessible from the Landing Page.
 - [ ] **Content**: Your page displays links that you want to share. Feel free to make it as creative as you want!
 - [ ] **No Breakages**: Your additions do not break the existing routing or components in the project.

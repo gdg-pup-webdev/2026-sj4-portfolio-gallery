@@ -2,7 +2,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaYoutube, FaTwitch } fr
 import LinkButton from "../../components/LinkButton";
 import Footer from "../../components/Footer";
 
-// 🛑 TODO: Step 1 - Create Your Own Page!
+// 🛑 TODO: Step 2B - Create Your Own Page!
 // Instructions:
 // 1. Do NOT edit this StudentTemplate.jsx file directly!
 // 2. Instead, copy the contents of this file or duplicate it.
@@ -26,7 +26,7 @@ function StudentTemplate() {
           <div className="relative">
             <div className="w-28 h-28 rounded-full overflow-hidden ring-4 ring-[#4285F4]/30 shadow-lg">
               <img
-                src="https://api.dicebear.com/9.x/fun-emoji/svg?seed=student" 
+                src="https://api.dicebear.com/9.x/fun-emoji/svg?seed=student"
                 alt="Student Profile"
                 className="w-full h-full object-cover bg-black/20"
               />

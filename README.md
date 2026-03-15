@@ -17,9 +17,9 @@ Ready to add your page to the gallery? Follow these simple steps to contribute t
 1. **🍴 Fork the Repository**: Click the "Fork" button at the top right of this page to create your own copy of the repository.
 2. **💻 Implement Your Changes**: 
    - Clone your forked repo to your local machine.
-   - Create a new component for your personal page inside the `./src/pages/members` folder.
+   - Create a new component for your personal page inside the `./src/pages/members` folder. (Feel free to copy the `StudentTemplate.jsx` file to get started!)
    - Modify `src/App.jsx` to set up a new route for your page using React Router so it's accessible from the main app.
-   - Add a link to your page from the Landing Page (e.g. adding a new card on the Gallery section).
+   - Modify `src/pages/HomePage.jsx` and add your profile details into the `featuredStudents` array to display your card on the Landing Page gallery.
 3. **🚀 Push to Your Fork**: Once your page is looking awesome and the routing works, commit your changes and push them back to your forked repository.
 4. **🤝 Submit a Pull Request**: Head back to this original repository and open a Pull Request (PR) from your fork. Give it a nice title so we know whose page it is!
 

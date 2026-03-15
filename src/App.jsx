@@ -6,7 +6,7 @@ import HomePage from "./pages/HomePage";
 import DynamicPage from "./pages/DynamicPage";
 import ScrollToTop from "./components/ScrollToTop";
 
-// 🛑 TODO: Step 2A - Import your newly created page component here!
+// 🛑 TODO: Step 2C - Import your newly created page component here!
 // import YourNamePage from "./pages/members/YourNamePage";
 import ErwinDaguinotasPage from "./pages/members/ErwinDaguinotasPage";
 import StudentTemplate from "./pages/members/StudentTemplate";

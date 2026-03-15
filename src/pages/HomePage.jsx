@@ -11,7 +11,15 @@ const featuredStudents = [
   { id: "sample", name: "Sample Page", role: "Demo Profile", avatar: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=sample" },
   { id: "sparky", name: "Sparky Batumbakal", role: "GDG PUP Mascot", avatar: sparky },
   { id: "template", name: "Student Template", role: "Starter Page", avatar: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=student" },
-  // 🛑 TODO: Step 3 - Add your own information to this array to show up on the Gallery!
+
+  // 🛑 TODO: Step 2D - Add Yourself to the Gallery!
+  // Instructions:
+  // 1. Uncomment the line below or copy it to create a new entry in this array.
+  // 2. Change the `id` to exactly match the route path you created in `App.jsx` (e.g., "your-name").
+  // 3. Change the `name` to your actual name.
+  // 4. Change the `role` to a short tagline or title (e.g., "Frontend Developer").
+  // 5. For the `avatar`, you can use the default `sparky`, or pass an imported image from your assets!
+  //
   // { id: "your-name", name: "Your Name", role: "Your Role / Hobbies", avatar: sparky },
 ];
 

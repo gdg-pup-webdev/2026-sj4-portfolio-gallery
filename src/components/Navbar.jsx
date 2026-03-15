@@ -1,12 +1,13 @@
-import { Link, useLocation } from "react-router-dom";
+import {  useLocation } from "react-router-dom";
 import { FaCode } from "react-icons/fa";
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Navbar() {
   const location = useLocation();
 
   const links = [
     { to: "/", label: "Home" },
-    { to: "/testing", label: "Gallery" },
+    { to: "/#gallery", label: "Gallery" },
   ];
 
   return (

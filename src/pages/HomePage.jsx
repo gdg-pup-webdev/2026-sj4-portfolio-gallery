@@ -81,14 +81,14 @@ function HomePage() {
             <img
               src={sparky}
               alt="Sparky — GDG PUP Mascot"
-              className="relative w-52 h-52 sm:w-64 sm:h-64 lg:w-72 lg:h-72 object-contain drop-shadow-2xl transition-transform duration-700 hover:-translate-y-4"
+              className="relative w-52 h-52 sm:w-64 sm:h-64 lg:w-92 lg:h-92 object-contain drop-shadow-2xl transition-transform duration-700 hover:-translate-y-4"
             />
           </div>
         </div>
       </section>
 
       {/* ====== FEATURED STUDENTS ====== */}
-      <section className="py-20 px-6">
+      <section id="gallery" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-14">
@@ -117,40 +117,7 @@ function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* ====== HOW IT WORKS ====== */}
-      <section id="how-it-works" className="py-20 px-6">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-14">
-            <span className="inline-block mb-3 px-3 py-1 rounded-full backdrop-blur-md bg-white/5 border border-white/10 text-xs font-medium text-white/50">
-              Getting Started
-            </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight font-['Space_Grotesk']">
-              How It Works
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {steps.map((step, i) => (
-              <div
-                key={i}
-                className="backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-8 text-center flex flex-col items-center gap-4 hover:bg-white/10 transition-all duration-500"
-              >
-                {/* Step number */}
-                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-[#4285F4]/20 to-[#34A853]/20 flex items-center justify-center text-[#4285F4] text-xl">
-                  {step.icon}
-                </div>
-                <h3 className="text-white font-semibold text-lg font-['Space_Grotesk']">
-                  {step.title}
-                </h3>
-                <p className="text-white/40 text-sm leading-relaxed">
-                  {step.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       <Footer />
     </>

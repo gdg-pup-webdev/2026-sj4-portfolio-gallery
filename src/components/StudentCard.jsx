@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function StudentCard({ id, name, role, avatar }) {
   return (
     <Link
-      to="/members/sparky"
+      to={`/members/${id}`}
       className="no-underline block"
     >
       <div className="backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-6 flex flex-col items-center gap-4 text-center cursor-pointer transition-all duration-500 hover:bg-white/10 hover:border-white/25 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(66,133,244,0.15)] group">

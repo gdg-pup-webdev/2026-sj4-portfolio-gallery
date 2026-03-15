@@ -4,13 +4,15 @@ import sparky from "../assets/sparky.png";
 import StudentCard from "../components/StudentCard";
 import Footer from "../components/Footer";
 
+import erwindaguinotasavatar from "../assets/members/erwindaguinotas/profile.png"
+
 const featuredStudents = [
-  { id: "sparky", name: "Sparky Batumbakal", role: "Web Developer · UI/UX", avatar: sparky },
-  { id: "alex", name: "Alex Rivera", role: "Frontend Developer", avatar: sparky },
-  { id: "mia", name: "Mia Santos", role: "Full-Stack Developer", avatar: sparky },
-  { id: "james", name: "James Cruz", role: "Mobile Developer", avatar: sparky },
-  { id: "sofia", name: "Sofia Reyes", role: "Data Scientist", avatar: sparky },
-  { id: "carlo", name: "Carlo Mendoza", role: "Backend Engineer", avatar: sparky },
+  { id: "erwin-daguinotas", name: "Erwin Daguinotas", role: "GDG PUP Lead", avatar: erwindaguinotasavatar },
+  { id: "sample", name: "Sample Page", role: "Demo Profile", avatar: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=sample" },
+  { id: "sparky", name: "Sparky Batumbakal", role: "GDG PUP Mascot", avatar: sparky },
+  { id: "template", name: "Student Template", role: "Starter Page", avatar: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=student" },
+  // 🛑 TODO: Step 3 - Add your own information to this array to show up on the Gallery!
+  // { id: "your-name", name: "Your Name", role: "Your Role / Hobbies", avatar: sparky },
 ];
 
 const steps = [
@@ -117,7 +119,7 @@ function HomePage() {
           </div>
         </div>
       </section>
-      
+
 
       <Footer />
     </>

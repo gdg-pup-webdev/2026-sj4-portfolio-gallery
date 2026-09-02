@@ -39,3 +39,20 @@ To successfully complete this activity, your Pull Request should meet the follow
 If you get stuck or have questions about React Router, don't hesitate to reach out in our community channels. We are here to help!
 
 Happy coding and routing! 🛣️✨
+
+---
+
+## Documentation
+
+- [docs/state.md](docs/state.md) - Teaching position / handover
+- [docs/index.md](docs/index.md) - Doc inventory
+- [FLAGS.md](FLAGS.md) - Improvement register
+- [AGENTS.md](AGENTS.md) - Agent load order
+
+## Contributors
+
+This project is made possible by the GDG PUP community:
+
+| Role | Name |
+| --- | --- |
+| Development | [Erwin Daguinotas](https://www.linkedin.com/in/erwin-daguinotas/) - Web Development Lead |

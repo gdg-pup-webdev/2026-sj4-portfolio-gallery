@@ -1,10 +1,16 @@
 # React Router Study Jam: Student Link Gallery
 
+[![Status: Teaching](https://img.shields.io/badge/Status-Teaching-blue)](docs/state.md)
+[![Stack: React](https://img.shields.io/badge/Stack-React-black)](#about)
+[![FMD philosophy: 1.31.0](https://img.shields.io/badge/FMD%20philosophy-1.31.0-blue)](AGENTS.md)
+
+
 Post Study Jam activity for the React Router session. A collaborative Student Link Gallery where each student gets their own page, connected from a shared landing page with React Router.
 
 ## Table of Contents
 
 - [About](#about)
+- [Start here](#start-here)
 - [Activity instructions](#activity-instructions)
 - [Acceptance criteria](#acceptance-criteria)
 - [Quick start](#quick-start)
@@ -18,6 +24,12 @@ We've learned a lot about navigating between pages, handling routes, and buildin
 This repository holds a **Student Link Gallery**. It's a collaborative website where **each student gets their very own page**. On your personal page, you can display anything you want: links to your social media, your portfolio, your favorite coding resources, or even just some cool projects you've worked on.
 
 The website also features a **Landing Page**, which acts as the main hub connecting all of our student pages together using React Router.
+
+## Start here
+
+- **Humans:** this README, then [docs/state.md](docs/state.md)
+- **Agents:** [AGENTS.md](AGENTS.md) (state → index → FLAGS)
+- **Contributors:** table below
 
 ## Activity instructions
 
@@ -64,8 +76,10 @@ Happy coding and routing!
 
 ## Contributors
 
-This project is made possible by the GDG PUP community:
+This project is made possible by the GDG PUP community.
 
-| Role | Name |
-| --- | --- |
-| Development | [Erwin Daguinotas](https://www.linkedin.com/in/erwin-daguinotas/) - Web Development Lead |
+| Name | Role | GitHub |
+| --- | --- | --- |
+| [Carlos Jerico Dela Torre](https://www.linkedin.com/in/delatorrecj) | Chief Technology Officer (2025-2026) | [@delatorrecj](https://github.com/delatorrecj) |
+| [Erwin Daguinotas](https://www.linkedin.com/in/erwin-daguinotas) | Web Development Lead | [@SauceCode01](https://github.com/SauceCode01) |
+
